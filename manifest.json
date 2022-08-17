@@ -1,0 +1,11 @@
+{
+    "name": "BUY-ASIC",
+    "short_name": "BUY-ASIC",
+    "icons": [{
+        "src": "img/icon.png",
+        "sizes": "432x403"
+    }],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "fullscreen"
+}
