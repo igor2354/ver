@@ -3,8 +3,8 @@
             <div class="wrapper">
                 <div class="logo"><img src="img/logo.svg"><div class="copyright">Copyright 2022. Buy-asic</div></div>
                 <div class="menus">
-                    <div class="col">
-                        <div class="head">Услуги</div>
+                    <div class="col js-toggle">
+                        <div class="head"><span>Услуги</span> </div>
                         <ul>
                             <li><a href="#">Услуга 1</a></li>
                             <li><a href="#">Услуга 2</a></li>
@@ -13,8 +13,8 @@
                             <li><a href="#">Сервисный центр</a></li>
                         </ul>
                     </div>
-                    <div class="col">
-                        <div class="head">Навигация</div>
+                    <div class="col js-toggle">
+                        <div class="head"><span>Навигация</span></div>
                         <ul>
                             <li><a href="#">Каталог</a></li>
                             <li><a href="#">Доставка</a></li>
@@ -25,7 +25,7 @@
                         </ul>
                     </div>
                     <div class="col">
-                        <div class="head">Контакты</div>
+                        <div class="head"><span>Контакты</span></div>
                         <ul>
                             <li><a href="#">mail@example.com</a></li>
                             <li><a href="#">+7 (800) 800-80-80</a></li>
@@ -59,8 +59,11 @@
     <script src="js/flickity.pkgd.min.js"></script> <!-- Слайдер на главной -->
     <!-- <script src="js/flickity-fade.js"></script> --> <!-- Fade-эффект для слайдера -->
     <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
-
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

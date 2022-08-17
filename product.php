@@ -15,37 +15,67 @@
         <div class="wrapper">
             <div class="image">
                 <div class="gallery-container">
-                  <div class="swiper-container gallery-main" id="gallery">
+                  <div class="swiper-container gallery-main lightgallery" id="gallery">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                        <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                        </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                        <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                        </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                        <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                        </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                       <div class="swiper-slide">
-                        <img src="img/products/asicbig.png">
+                          <a href="img/products/asicbig.png" class="lightgallery__link"
+                            data-external-thumb-image="img/products/asicbig.png">
+                            <img src="img/products/asicbig.png">
+                          </a>
                       </div>
                     </div>
                     <div class="swipermain-button-prev"></div>
@@ -201,8 +231,28 @@
                             <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
                         </fieldset>
                         <div class="description">
-                            Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                        </div>
+                                <div class="description__list">
+                                    <div class="description__item">
+                                        <span class="description__item-name">Алгоритм:</span>
+                                        <span class="description__item-value">SHA256</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Криптовалюта:</span>
+                                        <span class="description__item-value">Bitcoin (BTC)</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                        <span class="description__item-value">56Th/s</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Потребление электроэнергии:</span>
+                                        <span class="description__item-value">2520W</span>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="price">200 000 ₽</div>
                     </div>
                     <div class="btns">
@@ -230,8 +280,28 @@
                             <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
                         </fieldset>
                         <div class="description">
-                            Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                        </div>
+                                <div class="description__list">
+                                    <div class="description__item">
+                                        <span class="description__item-name">Алгоритм:</span>
+                                        <span class="description__item-value">SHA256</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Криптовалюта:</span>
+                                        <span class="description__item-value">Bitcoin (BTC)</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                        <span class="description__item-value">56Th/s</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Потребление электроэнергии:</span>
+                                        <span class="description__item-value">2520W</span>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="price">200 000 ₽</div>
                     </div>
                     <div class="btns">
@@ -259,8 +329,28 @@
                             <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
                         </fieldset>
                         <div class="description">
-                            Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                        </div>
+                                <div class="description__list">
+                                    <div class="description__item">
+                                        <span class="description__item-name">Алгоритм:</span>
+                                        <span class="description__item-value">SHA256</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Криптовалюта:</span>
+                                        <span class="description__item-value">Bitcoin (BTC)</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                        <span class="description__item-value">56Th/s</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Потребление электроэнергии:</span>
+                                        <span class="description__item-value">2520W</span>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="price">200 000 ₽</div>
                     </div>
                     <div class="btns">
@@ -288,8 +378,28 @@
                             <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
                         </fieldset>
                         <div class="description">
-                            Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                        </div>
+                                <div class="description__list">
+                                    <div class="description__item">
+                                        <span class="description__item-name">Алгоритм:</span>
+                                        <span class="description__item-value">SHA256</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Криптовалюта:</span>
+                                        <span class="description__item-value">Bitcoin (BTC)</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                        <span class="description__item-value">56Th/s</span>
+                                    </div>
+
+                                    <div class="description__item">
+                                        <span class="description__item-name">Потребление электроэнергии:</span>
+                                        <span class="description__item-value">2520W</span>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="price">200 000 ₽</div>
                     </div>
                     <div class="btns">

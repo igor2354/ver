@@ -10,10 +10,15 @@
     <meta name="theme-color" content="#E84058">
     <link rel="manifest" href="manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/jquery-2.2.4.min.js"  crossorigin="anonymous"></script>
     <link href="css/flickity.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link href="css/main.css" rel="stylesheet"> <!-- Шапка и подвал -->
+    <link href="css/nice-select.css" rel="stylesheet" />
+    <link  href="css/lightgallery-bundle.min.css" rel="stylesheet">
+    <link  href="css/lg-fullscreen.css" rel="stylesheet">
+    <link  href="css/lg-thumbnail.css" rel="stylesheet">
+    <link  href="css/lg-transitions.css" rel="stylesheet">
     <link href="css/nouislider.min.css" rel="stylesheet"> <!-- Двойной слайдер -->
     <link href="css/style.css" rel="stylesheet"> <!-- Основной -->
     <link href="css/responsive.css" rel="stylesheet"> <!-- Адаптив -->

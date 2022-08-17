@@ -1,7 +1,46 @@
 /* Выпадающее меню Каталог в шапке */
 
+document.addEventListener("DOMContentLoaded", function () {
+	let arrGallery = document.querySelectorAll(".lightgallery");
+
+	if (arrGallery.length > 0) {
+		arrGallery.forEach((element) => {
+			lightGallery(element, {
+				selector: "a",
+				addClass: "lightGallery-white-theme",
+				exThumbImage: "data-external-thumb-image",
+				speed: 500,
+				plugins: [lgFullscreen, lgThumbnail],
+				thumbnail: true,
+				zoomFromOrigin: false,
+				mobileSettings: {
+					thumbnail: false,
+				},
+			});
+		});
+	}
+});
+
 function dropDownCatalog() {
 	document.getElementById("Dropdown").classList.toggle("show");
+}
+
+if (document.documentElement.clientWidth < 960) {
+	function myFunction() {
+		var element = document.getElementById("search_wrapper");
+		element.classList.toggle("down");
+	}
+	window.onclick = function (event) {
+		element.classList.toggle("down");
+	};
+}
+
+if (document.documentElement.clientWidth < 960) {
+	var gallery = document.getElementById("gallery");
+	var favorite = document.getElementById("favorite");
+	if (gallery != null && favorite != null) {
+		gallery.append(favorite);
+	}
 }
 
 $(document).ready(function () {
@@ -24,23 +63,43 @@ $(document).ready(function () {
 		open = false;
 	});
 
-	if (document.documentElement.clientWidth < 960) {
-		function myFunction() {
-			var element = document.getElementById("search_wrapper");
-			element.classList.toggle("down");
-		}
-		window.onclick = function (event) {
-			element.classList.toggle("down");
-		};
+	let match = [window.matchMedia("(max-width: 880px)")];
+
+	function toogleFooterMenu() {
+		$(this).toggleClass("show");
+		$(this).next().slideToggle(300);
 	}
 
-	if (document.documentElement.clientWidth < 960) {
-		var gallery = document.getElementById("gallery");
-		var favorite = document.getElementById("favorite");
-		if (gallery != null && favorite != null) {
-			gallery.append(favorite);
+	function actvieToogleFooterMenu() {
+		if (match[0].matches) {
+			$(".js-toggle .head").next().slideUp(300);
+			$(".js-toggle .head").on("click", toogleFooterMenu);
+		} else {
+			$(this).removeClass("show");
+			$(".js-toggle .head").next().slideDown(300);
+			$(".js-toggle .head").off("click", toogleFooterMenu);
 		}
 	}
+
+	actvieToogleFooterMenu();
+	match[0].addListener(actvieToogleFooterMenu);
+
+	/* Вкл/Выкл бегущей строки (true / false) */
+	var enableS = true;
+
+	if (enableS === true) {
+		$(".runline-wrapper").marquee({
+			duration: 30000,
+			pauseOnHover: true,
+			startVisible: true,
+			gap: 40,
+			delayBeforeStart: 0,
+			direction: "left",
+			duplicated: true,
+		});
+	}
+
+	$("select").niceSelect();
 });
 
 /* Выезжающий фильтр */
@@ -68,25 +127,6 @@ $(document).click(function (e) {
 	if (!menuBtn.is(e.target) && !menu.is(e.target) && menu.has(e.target).length === 0) {
 		menu.removeClass("slide");
 		menuBtn.removeClass("is-active");
-	}
-});
-
-/* Бегущая строка */
-
-$(window).load(function () {
-	/* Вкл/Выкл бегущей строки (true / false) */
-	var enableS = true;
-
-	if (enableS === true) {
-		$(".runline-wrapper").marquee({
-			duration: 30000,
-			pauseOnHover: true,
-			startVisible: true,
-			gap: 40,
-			delayBeforeStart: 0,
-			direction: "left",
-			duplicated: true,
-		});
 	}
 });
 

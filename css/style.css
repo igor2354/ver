@@ -913,6 +913,15 @@ input[type="range"]:focus::-ms-fill-upper {
 	gap: 48px;
 }
 
+.sort_dropdown {
+	display: flex;
+	align-items: center;
+}
+
+.sort_dropdown label {
+	margin-right: 15px;
+}
+
 .sort_dropdown select {
 	border: 0;
 	color: var(--red);
@@ -1295,6 +1304,15 @@ input:checked ~ .tab-content {
 	height: 67px;
 }
 
+.catalog .item .btns a.link.negative.added {
+	color: #fff;
+	background: var(--red);
+}
+
+.catalog .item .btns a.link.negative.added::after {
+	background-image: url(../img/favoritew.svg);
+}
+
 .product .swiper-slide-thumb-active img {
 	border: 1px solid;
 }
@@ -1391,6 +1409,7 @@ input:checked ~ .tab-content {
 	display: flex;
 	gap: 32px;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .pagination li,
