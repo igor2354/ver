@@ -1,6 +1,41 @@
 /* Выпадающее меню Каталог в шапке */
 
 document.addEventListener("DOMContentLoaded", function () {
+	let arrSimilarProductSliders = document.querySelectorAll(".similar-product");
+
+	if (arrSimilarProductSliders.length > 0) {
+		arrSimilarProductSliders.forEach((element) => {
+			let slider = element.querySelector(".similar_product-slider");
+			let next = element.querySelector(".swiper-button-next");
+			let prev = element.querySelector(".swiper-button-prev");
+
+			let sliderSimilarProduct = new Swiper(slider, {
+				slidesPerView: 1,
+				watchOverflow: true,
+				watchSlidesVisibility: true,
+				watchSlidesProgress: true,
+				spaceBetween: 24,
+				navigation: {
+					nextEl: next,
+					prevEl: prev,
+				},
+				breakpoints: {
+					1200: {
+						slidesPerView: 4,
+					},
+
+					880: {
+						slidesPerView: 3,
+					},
+
+					550: {
+						slidesPerView: 2,
+					},
+				},
+			});
+		});
+	}
+
 	let arrGallery = document.querySelectorAll(".lightgallery");
 
 	if (arrGallery.length > 0) {

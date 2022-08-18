@@ -209,205 +209,286 @@
         </div>
 
         <section class="module catalog similar">
-            <div class="heading">Похожие товары</div>
-            <div class="wrapper">
-                <div class="item">
-                    <div class="image">
-                        <img src="img/products/asic.png">
-                        <div class="label">В наличии</div>
-                    </div>
-                    <div class="info">
-                        <div class="name">Antminer S17 56Th</div>
-                        <fieldset class="rate">
-                            <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
-                            <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
-                            <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
-                            <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
-                            <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
-                            <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
-                            <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
-                            <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
-                            <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
-                            <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
-                        </fieldset>
-                        <div class="description">
-                                <div class="description__list">
-                                    <div class="description__item">
-                                        <span class="description__item-name">Алгоритм:</span>
-                                        <span class="description__item-value">SHA256</span>
-                                    </div>
+          
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Криптовалюта:</span>
-                                        <span class="description__item-value">Bitcoin (BTC)</span>
-                                    </div>
+            <div class="similar-product">
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
-                                        <span class="description__item-value">56Th/s</span>
-                                    </div>
+              <div class="similar_product-group">
+                <div class="heading">Похожие товары</div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Потребление электроэнергии:</span>
-                                        <span class="description__item-value">2520W</span>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="price">200 000 ₽</div>
-                    </div>
-                    <div class="btns">
-                        <a class="link" href="#">В корзину</a>
-                        <a class="link negative" href="#"></a>
-                    </div>
+                <div class="similar_product-arrow">
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                 </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="img/products/asic.png">
-                        <div class="label">В наличии</div>
-                    </div>
-                    <div class="info">
-                        <div class="name">Antminer S17 56Th</div>
-                        <fieldset class="rate">
-                            <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
-                            <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
-                            <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
-                            <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
-                            <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
-                            <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
-                            <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
-                            <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
-                            <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
-                            <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
-                        </fieldset>
-                        <div class="description">
-                                <div class="description__list">
-                                    <div class="description__item">
-                                        <span class="description__item-name">Алгоритм:</span>
-                                        <span class="description__item-value">SHA256</span>
-                                    </div>
+              </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Криптовалюта:</span>
-                                        <span class="description__item-value">Bitcoin (BTC)</span>
-                                    </div>
+              <div class="similar_product-slider swiper">
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
-                                        <span class="description__item-value">56Th/s</span>
-                                    </div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item">
+                          <div class="image">
+                              <img src="img/products/asic.png">
+                              <div class="label">В наличии</div>
+                          </div>
+                          <div class="info">
+                              <div class="name">Antminer S17 56Th</div>
+                              <fieldset class="rate">
+                                  <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+                                  <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+                                  <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+                                  <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+                                  <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+                                  <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+                                  <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+                                  <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+                                  <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+                                  <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+                              </fieldset>
+                              <div class="description">
+                                      <div class="description__list">
+                                          <div class="description__item">
+                                              <span class="description__item-name">Алгоритм:</span>
+                                              <span class="description__item-value">SHA256</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Потребление электроэнергии:</span>
-                                        <span class="description__item-value">2520W</span>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="price">200 000 ₽</div>
-                    </div>
-                    <div class="btns">
-                        <a class="link" href="#">В корзину</a>
-                        <a class="link negative" href="#"></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="img/products/asic.png">
-                        <div class="label">В наличии</div>
-                    </div>
-                    <div class="info">
-                        <div class="name">Antminer S17 56Th</div>
-                        <fieldset class="rate">
-                            <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
-                            <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
-                            <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
-                            <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
-                            <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
-                            <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
-                            <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
-                            <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
-                            <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
-                            <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
-                        </fieldset>
-                        <div class="description">
-                                <div class="description__list">
-                                    <div class="description__item">
-                                        <span class="description__item-name">Алгоритм:</span>
-                                        <span class="description__item-value">SHA256</span>
-                                    </div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Криптовалюта:</span>
+                                              <span class="description__item-value">Bitcoin (BTC)</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Криптовалюта:</span>
-                                        <span class="description__item-value">Bitcoin (BTC)</span>
-                                    </div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                              <span class="description__item-value">56Th/s</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
-                                        <span class="description__item-value">56Th/s</span>
-                                    </div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Потребление электроэнергии:</span>
+                                              <span class="description__item-value">2520W</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              <div class="price">200 000 ₽</div>
+                          </div>
+                          <div class="btns">
+                              <a class="link" href="#">В корзину</a>
+                              <a class="link negative" href="#"></a>
+                          </div>
+                      </div>
+                    </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Потребление электроэнергии:</span>
-                                        <span class="description__item-value">2520W</span>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="price">200 000 ₽</div>
-                    </div>
-                    <div class="btns">
-                        <a class="link" href="#">В корзину</a>
-                        <a class="link negative" href="#"></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <img src="img/products/asic.png">
-                        <div class="label">В наличии</div>
-                    </div>
-                    <div class="info">
-                        <div class="name">Antminer S17 56Th</div>
-                        <fieldset class="rate">
-                            <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
-                            <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
-                            <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
-                            <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
-                            <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
-                            <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
-                            <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
-                            <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
-                            <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
-                            <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
-                        </fieldset>
-                        <div class="description">
-                                <div class="description__list">
-                                    <div class="description__item">
-                                        <span class="description__item-name">Алгоритм:</span>
-                                        <span class="description__item-value">SHA256</span>
-                                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                          <div class="image">
+                              <img src="img/products/asic.png">
+                              <div class="label">В наличии</div>
+                          </div>
+                          <div class="info">
+                              <div class="name">Antminer S17 56Th</div>
+                              <fieldset class="rate">
+                                  <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+                                  <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+                                  <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+                                  <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+                                  <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+                                  <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+                                  <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+                                  <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+                                  <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+                                  <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+                              </fieldset>
+                              <div class="description">
+                                      <div class="description__list">
+                                          <div class="description__item">
+                                              <span class="description__item-name">Алгоритм:</span>
+                                              <span class="description__item-value">SHA256</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Криптовалюта:</span>
-                                        <span class="description__item-value">Bitcoin (BTC)</span>
-                                    </div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Криптовалюта:</span>
+                                              <span class="description__item-value">Bitcoin (BTC)</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Хэшрейт (Мощность):</span>
-                                        <span class="description__item-value">56Th/s</span>
-                                    </div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                              <span class="description__item-value">56Th/s</span>
+                                          </div>
 
-                                    <div class="description__item">
-                                        <span class="description__item-name">Потребление электроэнергии:</span>
-                                        <span class="description__item-value">2520W</span>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="price">200 000 ₽</div>
+                                          <div class="description__item">
+                                              <span class="description__item-name">Потребление электроэнергии:</span>
+                                              <span class="description__item-value">2520W</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              <div class="price">200 000 ₽</div>
+                          </div>
+                          <div class="btns">
+                              <a class="link" href="#">В корзину</a>
+                              <a class="link negative" href="#"></a>
+                          </div>
+                      </div>
                     </div>
-                    <div class="btns">
-                        <a class="link" href="#">В корзину</a>
-                        <a class="link negative" href="#"></a>
+
+                    <div class="swiper-slide">
+                      <div class="item">
+                          <div class="image">
+                              <img src="img/products/asic.png">
+                              <div class="label">В наличии</div>
+                          </div>
+                          <div class="info">
+                              <div class="name">Antminer S17 56Th</div>
+                              <fieldset class="rate">
+                                  <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+                                  <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+                                  <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+                                  <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+                                  <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+                                  <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+                                  <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+                                  <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+                                  <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+                                  <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+                              </fieldset>
+                              <div class="description">
+                                      <div class="description__list">
+                                          <div class="description__item">
+                                              <span class="description__item-name">Алгоритм:</span>
+                                              <span class="description__item-value">SHA256</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Криптовалюта:</span>
+                                              <span class="description__item-value">Bitcoin (BTC)</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                              <span class="description__item-value">56Th/s</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Потребление электроэнергии:</span>
+                                              <span class="description__item-value">2520W</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              <div class="price">200 000 ₽</div>
+                          </div>
+                          <div class="btns">
+                              <a class="link" href="#">В корзину</a>
+                              <a class="link negative" href="#"></a>
+                          </div>
+                      </div>
                     </div>
-                </div>
+
+                    <div class="swiper-slide">
+                      <div class="item">
+                          <div class="image">
+                              <img src="img/products/asic.png">
+                              <div class="label">В наличии</div>
+                          </div>
+                          <div class="info">
+                              <div class="name">Antminer S17 56Th</div>
+                              <fieldset class="rate">
+                                  <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+                                  <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+                                  <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+                                  <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+                                  <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+                                  <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+                                  <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+                                  <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+                                  <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+                                  <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+                              </fieldset>
+                              <div class="description">
+                                      <div class="description__list">
+                                          <div class="description__item">
+                                              <span class="description__item-name">Алгоритм:</span>
+                                              <span class="description__item-value">SHA256</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Криптовалюта:</span>
+                                              <span class="description__item-value">Bitcoin (BTC)</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                              <span class="description__item-value">56Th/s</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Потребление электроэнергии:</span>
+                                              <span class="description__item-value">2520W</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              <div class="price">200 000 ₽</div>
+                          </div>
+                          <div class="btns">
+                              <a class="link" href="#">В корзину</a>
+                              <a class="link negative" href="#"></a>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="item">
+                          <div class="image">
+                              <img src="img/products/asic.png">
+                              <div class="label">В наличии</div>
+                          </div>
+                          <div class="info">
+                              <div class="name">Antminer S17 56Th</div>
+                              <fieldset class="rate">
+                                  <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+                                  <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+                                  <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+                                  <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+                                  <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+                                  <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+                                  <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+                                  <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+                                  <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+                                  <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+                              </fieldset>
+                              <div class="description">
+                                      <div class="description__list">
+                                          <div class="description__item">
+                                              <span class="description__item-name">Алгоритм:</span>
+                                              <span class="description__item-value">SHA256</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Криптовалюта:</span>
+                                              <span class="description__item-value">Bitcoin (BTC)</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Хэшрейт (Мощность):</span>
+                                              <span class="description__item-value">56Th/s</span>
+                                          </div>
+
+                                          <div class="description__item">
+                                              <span class="description__item-name">Потребление электроэнергии:</span>
+                                              <span class="description__item-value">2520W</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                              <div class="price">200 000 ₽</div>
+                          </div>
+                          <div class="btns">
+                              <a class="link" href="#">В корзину</a>
+                              <a class="link negative" href="#"></a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
             </div>
+
         </section>
     </div>
 </div>

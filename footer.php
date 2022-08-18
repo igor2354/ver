@@ -64,6 +64,7 @@
     <script src="js/lightgallery.min.js"></script>
     <script src="js/lg-thumbnail.min.js"></script>
     <script src="js/lg-fullscreen.min.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

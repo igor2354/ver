@@ -233,9 +233,7 @@
 	.el2 {
 		grid-template-columns: 3fr minmax(550px, 2fr);
 	}
-	.catalog.similar .item {
-		/*width: calc(100% / 3 - 139px);*/
-	}
+
 	.services .service .img {
 		max-width: 550px;
 	}
@@ -1203,12 +1201,7 @@
 		font-size: 16px;
 		line-height: 22px;
 	}
-	.catalog.similar .item:nth-child(n + 4) {
-		display: none;
-	}
-	.catalog.similar .item {
-		width: calc(100% / 3 - 24px);
-	}
+
 	.product .main-info a.link.negative:after {
 		background-size: 19px;
 		width: 20px;
@@ -2334,9 +2327,7 @@
 	.catalog.similar .wrapper {
 		flex-direction: column;
 	}
-	.catalog.similar .item {
-		width: 100%;
-	}
+
 	.gallery-main {
 		width: 500px;
 	}
