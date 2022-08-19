@@ -42,7 +42,8 @@
         <div class="map">
             <p class="name">На карте</p>
             <div class="map-wrapper">
-                <img src="img/map.jpg">
+
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A10099015aad173a6a45d99036da868129e18f88fcdb8976b47fa42d2c42d102f&amp;source=constructor" width="100%" height="660" frameborder="0"></iframe>
             </div>
         </div>
     </div>
