@@ -56,6 +56,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
     <script src="js/flickity.pkgd.min.js"></script> <!-- Слайдер на главной -->
     <!-- <script src="js/flickity-fade.js"></script> --> <!-- Fade-эффект для слайдера -->
     <script src="js/nouislider.min.js"></script>
@@ -65,6 +66,7 @@
     <script src="js/lg-thumbnail.min.js"></script>
     <script src="js/lg-fullscreen.min.js"></script>
     <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/dynamicAdapt.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

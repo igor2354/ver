@@ -1,18 +1,12 @@
 header .top {
 	background-color: #f5f5f5;
-	height: 48px;
 	display: flex;
 	align-items: center;
-}
-
-header .top .wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 32px;
 }
 
 header .top a {
+	display: block;
+	padding: 15px 0;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
@@ -22,6 +16,33 @@ header .top a:hover {
 	color: var(--red);
 }
 
+.header_top-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+}
+
+.header_top-contact {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.header_nav-list {
+	display: flex;
+	gap: 20px;
+}
+
+.header_nav-item a {
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s ease;
+}
+
+.header_nav-item a:hover {
+	border-color: var(--red);
+}
+
 header .middle {
 	padding-top: 41px;
 	padding-bottom: 41px;
@@ -29,59 +50,19 @@ header .middle {
 
 header .middle .container > .wrapper {
 	display: flex;
+	justify-content: space-between;
 }
 
 header .middle .logo {
-	margin-right: 95px;
 	max-width: 100%;
 	min-width: 194px;
 }
 
-header .middle .catalog {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 232px;
-	height: 48px;
-	color: #fff;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	border-radius: 8px;
-}
-
-header .middle .catalog button {
-	background: transparent;
-	border: 0;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--red);
-	gap: 8px;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	cursor: pointer;
-	border-radius: 8px;
-}
-
-header .middle .catalog button:hover,
-header .middle .catalog button:focus {
-	background-color: var(--black);
-}
-
-header .middle .catalog img {
-	width: 18px;
-}
-
 header .middle .search {
+	position: relative;
 	display: flex;
 	width: 100%;
-	max-width: 432px;
-	margin-left: auto;
-	position: relative;
+	max-width: 700px;
 }
 
 header .middle .search .wrapper {
@@ -102,31 +83,39 @@ header .middle .search button {
 }
 
 header .middle .search input {
-	padding: 11px 45px 11px 25px;
+	padding: 11px 130px 11px 25px;
 	width: 100%;
-	background: #f5f5f5;
 	border-radius: 24px;
+	border: 1px solid var(--red);
+	font-size: 16px;
+}
+
+header .middle .search input:focus {
+	outline: none;
 }
 
 header .middle .search .wrapper button {
+	cursor: pointer;
 	position: absolute;
-	top: 11px;
-	right: 10px;
+	top: 0;
+	right: 0;
+	border: 1px solid var(--red);
+	background: var(--red);
+	height: 100%;
+	border-radius: 24px;
+	width: 100%;
+	max-width: 120px;
+	font-size: 16px;
+	color: #fff;
 }
 
 header .middle .main_menu {
 	display: flex;
 	align-items: center;
-	margin-left: auto;
+	gap: 30px;
 }
 
 header .middle .main_menu .cart {
-	padding-left: 32px;
-	padding-right: 32px;
-	border-left: 1px solid #e7e7e7;
-	border-right: 1px solid #e7e7e7;
-	margin-left: 32px;
-	margin-right: 32px;
 }
 
 header .middle .main_menu a,
@@ -134,9 +123,6 @@ header .middle .main_menu .menu {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 24px;
-	display: flex;
-	align-items: center;
-	gap: 10px;
 }
 
 header .middle .main_menu .menu {
@@ -144,38 +130,46 @@ header .middle .main_menu .menu {
 }
 
 .fav,
-.cart {
+.cart,
+.compare {
 	position: relative;
 }
 
-.fav:hover .fav_name,
-.cart:hover .cart_name {
-	color: var(--red);
+.cart a {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.cart_name {
+	font-size: 16px;
+}
+
+.cart_price {
+	font-size: 18px;
 }
 
 .fav_value,
-.cart_value {
+.cart_value,
+.compare_value {
 	position: absolute;
-
-	width: 16px;
-	height: 16px;
+	left: -9px;
+	top: -9px;
+	width: 20px;
+	height: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: #fff;
-	background-color: var(--red);
+	background-color: #181818;
 	font-size: 12px;
 	border-radius: 50%;
 }
 
-.fav_value {
-	right: -4px;
-	bottom: -4px;
-}
-
-.cart_value {
-	right: 9px;
-	bottom: -4px;
+.fav_image,
+.cart_image,
+.compare_image {
+	position: relative;
 }
 
 /* Выпадающий Каталог */
@@ -407,6 +401,10 @@ footer .wrapper .menus a {
 	line-height: 24px;
 	margin-bottom: 24px;
 	display: block;
+}
+
+footer .wrapper .menus a:hover {
+	color: var(--red);
 }
 
 footer .mobile {

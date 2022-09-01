@@ -166,48 +166,54 @@
             <div class="heading">Последние новости</div>
             <a href="#">Все новости</a>
         </div>
-        <div class="wrapper">
-            <div class="item">
-                <img src="img/news/news1.jpg">
-                <div class="label">18 апреля 2022</div>
-                <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+
+        <div class="news_wrap">
+
+            <div class="swiper-button-next slider-button-next"></div>
+            <div class="swiper-button-prev slider-button-prev"></div>
+
+            <div class="news_slider swiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/news/news1.jpg">
+                            <div class="label">18 апреля 2022</div>
+                            <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/news/news1.jpg">
+                            <div class="label">18 апреля 2022</div>
+                            <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/news/news1.jpg">
+                            <div class="label">18 апреля 2022</div>
+                            <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/news/news1.jpg">
+                            <div class="label">18 апреля 2022</div>
+                            <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="item">
-                <img src="img/news/news1.jpg">
-                <div class="label">18 апреля 2022</div>
-                <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
-            </div>
-            <div class="item">
-                <img src="img/news/news1.jpg">
-                <div class="label">18 апреля 2022</div>
-                <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
-            </div>
+
         </div>
+
         <a href="#" class="link negative mobile">Все новости</a>
     </div>
 </section>
 
 <?php include 'footer.php'; ?>
 
-<script>
-    $('.main-carousel').flickity({
-      // options
-      cellSelector: '.carousel-cell',
-      /*fade: true,*/
-      cellAlign: 'left',
-      contain: true
-    });
-
-
-    var el1 = document.querySelector('.flickity-prev-next-button.previous');
-    var el2 = document.querySelector('.flickity-prev-next-button.next');
-    var container = document.querySelector('.main-carousel .control-arrows');
-
-    container.append(el1)
-    container.append(el2)
-
-    var dots = document.querySelector('.flickity-page-dots');
-    var control = document.querySelector('.control.static-banner');
-
-    control.append(dots)
-</script>

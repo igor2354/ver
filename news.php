@@ -32,37 +32,65 @@
 
             <div class="share">
                 <span>Поделиться в соцсетях</span>
-                <div class="social">
-                    <a href="#"><img src="img/vk.svg"></a>
-                    <a href="#"><img src="img/inst.svg"></a>
-                    <a href="#"><img src="img/face.svg"></a>
-                    <a href="#"><img src="img/tw.svg"></a>
-                </div>
+                <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-color-scheme="blackwhite" data-services="vkontakte,telegram,viber,whatsapp"></div>
+
             </div>
         </div>
     </div>
 
     <div class="related">
         <div class="container">
-            <div class="heading">Другие новости</div>
-            <div class="wrapper">
-                <div class="item">
-                    <img src="img/news/news.jpg">
-                    <div class="label">18 апреля 2022</div>
-                    <div class="info">
-                        <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
-                        <div class="desc">Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой </div>
+
+            <div class="related_wrap">
+
+                <div class="related_group">
+                    <div class="heading">Другие новости</div>
+
+                    <div class="related_product-arrow">
+                        <div class="swiper-button-prev slider-button-prev"></div>
+                        <div class="swiper-button-next slider-button-next"></div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="img/news/news.jpg">
-                    <div class="label">18 апреля 2022</div>
-                    <div class="info">
-                        <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
-                        <div class="desc">Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой </div>
+
+                <div class="related_slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <img src="img/news/news.jpg">
+                                <div class="label">18 апреля 2022</div>
+                                <div class="info">
+                                    <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                                    <div class="desc">Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <img src="img/news/news.jpg">
+                                <div class="label">18 апреля 2022</div>
+                                <div class="info">
+                                    <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                                    <div class="desc">Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <img src="img/news/news.jpg">
+                                <div class="label">18 апреля 2022</div>
+                                <div class="info">
+                                    <a href="/news.php" class="name">Какой асик выбрать в 2022 году?</a>
+                                    <div class="desc">Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой Небольшой кусок новости, ключевой </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </div>
+
         </div>
     </div>
 </div>

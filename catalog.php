@@ -11,12 +11,12 @@
 
 <div id="main">
     <div class="container">
-        <div class="heading">Каталог товаров</div>
+        <div class="heading">Каталог товаров <span class="found">478 товаров</span></div>
         <div class="infoline">
             <div class="filter_name desktop"><span>Фильтры</span> <!-- <img class="filter_icon" src="img/filter.svg"> --></div>
             <!-- <div class="filter_name mobile">Фильтры</div> -->
             <div class="sort">
-                <div class="found">478 товаров</div>
+
                 <div class="sort_dropdown">
                     <label>Сортировать: </label>
                     <select>
@@ -162,10 +162,11 @@
                             <a class="link negative" href="#"></a>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="image">
                             <img src="img/products/asic.png">
-                            <div class="label">В наличии</div>
+                            <div class="label">Нет в наличии</div>
                         </div>
                         <div class="info">
                             <div class="name">Antminer S17 56Th</div>
@@ -207,10 +208,11 @@
                             <div class="price">200 000 ₽</div>
                         </div>
                         <div class="btns">
-                            <a class="link" href="#">В корзину</a>
+                            <a class="link" href="#">Уведомить</a>
                             <a class="link negative" href="#"></a>
                         </div>
                     </div>
+
                     <div class="item">
                         <div class="image">
                             <img src="img/products/asic.png">

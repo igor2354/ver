@@ -151,68 +151,64 @@
         </div>
     </section>
 
-    <section id="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <div class="heading">Отзывы наших клиентов <a href="#" href="/reviews.php">Все отзывы</a></div>
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
+
+            <div class="reviews_wrap">
+                <div class="reviews_slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        <div class="review-item">
+                            <div class="name">Андрей Андреев</div>
+                            <div class="product">Antminer S17</div>
+                            <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="ctrl" id="ctrl" data-da="#toCtrl, 750 ,0">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
+
+                <div id="toCtrl" class="btns">
+                    <a class="mobile_link link negative" href="/reviews.php">Все отзывы</a>
                 </div>
-                <div class="swiper-slide">
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
-                  <div class="review-item">
-                      <div class="name">Андрей Андреев</div>
-                      <div class="product">Antminer S17</div>
-                      <div class="text">"Для успешного перехода на латышский язык необходимы три этапа. Первый уже осуществляется сейчас - это разговоры, объяснения, организация дополнительных  учиться на латышском языке", - сказала Муйжниеце.</div>
-                  </div>
-                </div>
-              </div>
-              <div class="ctrl" id="ctrl">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-              </div>
-            </div>
-            <div id="toCtrl" class="btns">
-                <a class="mobile_link link negative" href="/reviews.php">Все отзывы</a>
             </div>
         </div>
-        <script>
-            
-var ctrl = document.getElementById("ctrl");
-var toCtrl = document.getElementById("toCtrl");
-if( window.innerWidth <= 750 ){
-      toCtrl.prepend(ctrl)
- } else {
-      //не выполнять
- }
-        </script>
+
     </section>
 
     <section id="for">
@@ -223,9 +219,9 @@ if( window.innerWidth <= 750 ){
                     <div class="name">Для клиентов <img src="img/users.svg"></div>
                     <p>Довольный клиент – наша главная цель.</p>
                     <p>Мы строим отношения на доверии и внимании. Не стесняемся делиться своим экспертным мнением,
-чтобы помочь каждому клиенту.</p>
+                        чтобы помочь каждому клиенту.</p>
                     <p>Мы нацелены на долгосрочные отношения
-с каждым покупателем.</p>
+                        с каждым покупателем.</p>
                 </div>
                 <div class="right">
                     <div class="name">Для партнеров <img src="img/case.svg"></div>
@@ -252,35 +248,3 @@ if( window.innerWidth <= 750 ){
 
 
 <?php include 'footer.php'; ?>
-
-    <script>
-        const swiper = new Swiper('.swiper', {
-          direction: 'vertical',
-          loop: true,
-          pagination: {
-            el: '.swiper-pagination',
-          },
-
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        });
-
-        $('.team-slider').flickity({
-          // options
-          cellSelector: '.carousel-cell',
-          /*fade: true,*/
-          cellAlign: 'left',
-          contain: true,
-          pageDots: false
-        });
-
-        var btn1 = document.querySelector('.team-slider .previous');
-        var btn2 = document.querySelector('.team-slider .next');
-        var box = document.querySelector('.control-arrows');
-        box.append(btn1);
-        box.append(btn2);
-
-        
-    </script>

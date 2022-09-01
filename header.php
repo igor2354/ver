@@ -29,99 +29,6 @@
 <body>
 
     
-
-    <header>
-        <div class="top">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="address">г. Город, ул. Улица, д. 454</div>
-                    <div class="phone"><a href="tel:+78008008080">+7 (800) 800 - 80 - 80</a></div>
-                    <div class="mail"><a href="mailto:mail@example.com">mail@example.com</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="middle">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="logo">
-                        <a href="/"><img src="img/logo.svg"></a>
-                    </div>
-                    <div class="dropdown_catalog catalog">
-                        <button onclick="dropDownCatalog()" class="dropbtn">
-                            <img src="img/catalog.svg">Каталог</button>
-                            <div id="Dropdown" class="dropdown-content">
-                                <a href="/newest/">Новинки каталога</a>
-                                <a href="/akciya/">Акции</a>
-                                <a href="/rasprodazha/">Распродажа</a>
-                                <a href="/zhenskaya-kollekciya/">Женщинам</a>
-                                <a href="/muzhskaja-kollekcija/">Мужчинам</a>
-                                <a href="/detskaja-odezhda/">Детям</a>
-                            </div>
-                        </div>
-                    <div class="search">
-                        <button id="search_btn" onclick="myFunction()"><img src="img/search.svg"></button>
-                        <div id="search_wrapper" class="wrapper">
-                            <input type="search" id="search" placeholder="Поиск" name="q">
-                            <button><img src="img/search.svg"></button>
-                        </div>
-                    </div>
-                    <script>
-                        /*function myFunction() {
-                          var element = document.getElementById("search_wrapper");
-                          element.classList.toggle("down");
-                        }
-                        window.onclick = function(event) {
-                          element.classList.toggle("down");
-                        }*/
-                    </script>
-                    <div class="main_menu">
-                        <div class="fav">
-                            <a href="#">
-                                <span class="fav_name">Избранное </span>
-                                <img src="img/favorite.svg">
-                                <span class="fav_value">0</span>
-                            </a>
-                        </div>
-
-                        <div class="cart">
-                            <a href="#">
-                                <span class="cart_name">Корзина </span>
-                                <img src="img/cart.svg">
-                                <span class="cart_value">3</span>
-                            </a>
-                        </div>
-
-                        <div class="menu fullmenu"><span>Меню </span><div class="burger"></div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-   <div class="overlay">
-        <div class="container">
-            <div class="fs_menu">
-                <div class="link"><a href="/catalog.php">Каталог</a></div>
-                <div class="link"><a href="/services.php">Услуги</a></div>
-                <div class="link"><a href="/about.php">О компании</a></div>
-                <div class="link"><a href="/reviews.php">Отзывы</a></div>
-                <div class="link"><a href="/newslist.php">Новости</a></div>
-                <div class="link"><a href="#">Доставка</a></div>
-                <div class="link"><a href="/contacts.php">Контакты</a></div>
-                <div class="contacts">
-                    <div class="menu-head">Контакты</div>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a></p>
-                    <p><a href="tel:+7 (800) 800-80-80">+7 (800) 800-80-80</a> </p>
-                    <p>г. Город, ул. Улица, д. 454</p>
-                    <div class="social">
-                        <a href="#"><img src="img/vk.svg"></a>
-                        <a href="#"><img src="img/inst.svg"></a>
-                        <a href="#"><img src="img/face.svg"></a>
-                        <a href="#"><img src="img/tw.svg"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <section id="currency_table">
         <div class="wrapper runline-wrapper">
             <div class="runline-list">
@@ -177,4 +84,139 @@
         </div>
     </section>
 
- 
+    <header>
+        <div class="top">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="header_top-row">
+                        <div class="header_top-column">
+                            <nav class="header_nav">
+                                <ul class="header_nav-list">
+                                    <li class="header_nav-item">
+                                        <a href="#">О компании</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Прайс-лист</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Доставка и оплата</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Возврат</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Отзывы</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Новости</a>
+                                    </li>
+
+                                    <li class="header_nav-item">
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="header_top-column">
+                            <div class="header_top-contact">
+                                <div class="phone"><a href="tel:+78008008080">+7 (800) 800 - 80 - 80</a></div>
+                                <div class="mail"><a href="mailto:mail@example.com">mail@example.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="/"><img src="img/logo.svg"></a>
+                    </div>
+
+                    <div class="search">
+                        <button id="search_btn"><img src="img/search.svg"></button>
+                        <div id="search_wrapper" class="wrapper">
+                            <input type="search" id="search" placeholder="Поиск" name="q">
+                            <button>Найти</button>
+                        </div>
+                    </div>
+
+                    <div class="main_menu">
+                        <div class="main_menu-icon compare">
+                            <a href="#">
+                                <div class="compare_image">
+                                  <img src="img/auth.svg">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="main_menu-icon compare">
+                            <a href="#">
+                                <div class="compare_image">
+                                  <img src="img/compare.svg">
+                                  <span class="compare_value">0</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="main_menu-icon fav">
+                            <a href="#">
+                                <div class="fav_image">
+                                  <img src="img/favorite.svg">
+                                  <span class="fav_value">0</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="main_menu-icon cart">
+                            <a href="#">
+                                <div class="cart_image">
+                                    <img src="img/cart.svg">
+                                    <span class="cart_value">3</span>
+                                </div>
+
+                                <div class="cart_group">
+                                    <div class="cart_name">Корзина</div>
+                                    <div class="cart_price">500 000 руб.</div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="overlay">
+        <div class="container">
+            <div class="fs_menu">
+                <div class="link"><a href="/catalog.php">Каталог</a></div>
+                <div class="link"><a href="/services.php">Услуги</a></div>
+                <div class="link"><a href="/about.php">О компании</a></div>
+                <div class="link"><a href="/reviews.php">Отзывы</a></div>
+                <div class="link"><a href="/newslist.php">Новости</a></div>
+                <div class="link"><a href="#">Доставка</a></div>
+                <div class="link"><a href="/contacts.php">Контакты</a></div>
+                <div class="contacts">
+                    <div class="menu-head">Контакты</div>
+                    <p><a href="mailto:mail@example.com">mail@example.com</a></p>
+                    <p><a href="tel:+7 (800) 800-80-80">+7 (800) 800-80-80</a> </p>
+                    <p>г. Город, ул. Улица, д. 454</p>
+                    <div class="social">
+                        <a href="#"><img src="img/vk.svg"></a>
+                        <a href="#"><img src="img/inst.svg"></a>
+                        <a href="#"><img src="img/face.svg"></a>
+                        <a href="#"><img src="img/tw.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
