@@ -19,6 +19,7 @@
     <link  href="css/lg-fullscreen.css" rel="stylesheet">
     <link  href="css/lg-thumbnail.css" rel="stylesheet">
     <link  href="css/lg-transitions.css" rel="stylesheet">
+    <link  href="css/mmenu.css" rel="stylesheet">
     <link href="css/nouislider.min.css" rel="stylesheet"> <!-- Двойной слайдер -->
     <link href="css/style.css" rel="stylesheet"> <!-- Основной -->
     <link href="css/responsive.css" rel="stylesheet"> <!-- Адаптив -->
@@ -27,7 +28,170 @@
 </head>
 
 <body>
+    <div class="content-wrap">
+    <nav id="menu" class="mm-menu_offcanvas">
+        <ul>
+            <li class="--red">
+                <a href="tel:+7 (800) 800 - 80 - 80">
+                    <img src="./img/phone.svg" alt="">
+                    +7 (800) 800 - 80 - 80
+                </a>
+            </li>
 
+            <li class="--red">
+                <a href="mailto:mail@example.com">
+                    <img src="./img/email.svg" alt="">
+                    mail@example.com
+                </a>
+            </li>
+
+            <li class="mm-menu_name-title">
+                <a href="#">
+                    <img src="./img/catalog-red.svg" alt="">
+                    Каталог
+                </a>
+            </li>
+
+            <li>
+                <a href="#">Бренды</a>
+
+                <ul>
+                    <li>
+                        <a href="#">Подпункт 1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 2</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 4</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">ASIC Майнеры</a>
+
+                <ul>
+                    <li>
+                        <a href="#">Подпункт 1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 2</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 4</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    Комплектующие
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="#">Подпункт 1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 2</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 4</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="./img/stocks.svg" alt="">
+                    Акции
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="./img/calculate.svg" alt="">
+                    Майнинг калькулятор
+                </a>
+            </li>
+
+            <li>
+                <a href="#">Услуги</a>
+
+                <ul>
+                    <li>
+                        <a href="#">Подпункт 1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 2</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Подпункт 4</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="mm-menu_name-title">
+                <a href="#">
+                    <img src="./img/navigation.svg" alt="">
+                    Навигация
+                </a>
+            </li>
+
+            <li>
+                <a href="#">О компании</a>
+            </li>
+
+            <li>
+                <a href="#">Прайс-лист</a>
+            </li>
+
+            <li>
+                <a href="#">Доставка и оплата</a>
+            </li>
+
+            <li>
+                <a href="#">Возврат</a>
+            </li>
+
+            <li>
+                <a href="#">Отзывы</a>
+            </li>
+
+            <li>
+                <a href="#">Новости</a>
+            </li>
+
+            <li>
+                <a href="#">Контакты</a>
+            </li>
+        </ul>
+    </nav>
     
     <section id="currency_table">
         <div class="wrapper runline-wrapper">
@@ -91,7 +255,7 @@
                     <div class="header_top-row">
                         <div class="header_top-column">
                             <nav class="header_nav">
-                                <ul class="header_nav-list">
+                                <ul class="header_nav-list js-mobile-menu">
                                     <li class="header_nav-item">
                                         <a href="#">О компании</a>
                                     </li>
@@ -149,9 +313,9 @@
                     </div>
 
                     <div class="main_menu">
-                        <div class="main_menu-icon compare">
+                        <div class="main_menu-icon auth">
                             <a href="#">
-                                <div class="compare_image">
+                                <div class="auth_image">
                                   <img src="img/auth.svg">
                                 </div>
                             </a>
@@ -189,34 +353,130 @@
                             </a>
                         </div>
 
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="header_catalog">
+                        <nav class="main-nav">
+                            <ul class="main-nav__list js-mobile-menu">
+
+                                <li class="main-nav__item hover-item --subcat --red">
+                                    <a href="#" class="main-nav__link">Бренды</a>
+
+                                    <ul class="main-nav__submenu show-menu">
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 1</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink current">Подпункт 2</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 3</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="main-nav__item hover-item --subcat --red">
+                                    <a href="#" class="main-nav__link">ASIC Майнеры</a>
+
+                                    <ul class="main-nav__submenu show-menu">
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 1</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink current">Подпункт 2</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 3</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="main-nav__item hover-item --subcat --red">
+                                    <a href="#" class="main-nav__link">
+                                        Комплектующие
+                                    </a>
+
+                                    <ul class="main-nav__submenu show-menu">
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 1</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink current">Подпункт 2</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 3</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="main-nav__item hover-item --red">
+                                    <a href="#" class="main-nav__link">
+                                        <img src="./img/stocks.svg" alt="">
+                                        Акции
+                                    </a>
+                                </li>
+
+                                <li class="main-nav__item hover-item --gray">
+                                    <a href="#" class="main-nav__link">
+                                        <img src="./img/calculate.svg" alt="">
+                                        Майнинг калькулятор
+                                    </a>
+                                </li>
+
+                                <li class="main-nav__item hover-item --subcat --gray">
+                                    <a href="#" class="main-nav__link">Услуги</a>
+
+                                    <ul class="main-nav__submenu show-menu">
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 1</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink current">Подпункт 2</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 3</a>
+                                        </li>
+
+                                        <li class="main-nav__subitem hover-item">
+                                            <a href="#" class="main-nav__sublink">Подпункт 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <div class="overlay">
-        <div class="container">
-            <div class="fs_menu">
-                <div class="link"><a href="/catalog.php">Каталог</a></div>
-                <div class="link"><a href="/services.php">Услуги</a></div>
-                <div class="link"><a href="/about.php">О компании</a></div>
-                <div class="link"><a href="/reviews.php">Отзывы</a></div>
-                <div class="link"><a href="/newslist.php">Новости</a></div>
-                <div class="link"><a href="#">Доставка</a></div>
-                <div class="link"><a href="/contacts.php">Контакты</a></div>
-                <div class="contacts">
-                    <div class="menu-head">Контакты</div>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a></p>
-                    <p><a href="tel:+7 (800) 800-80-80">+7 (800) 800-80-80</a> </p>
-                    <p>г. Город, ул. Улица, д. 454</p>
-                    <div class="social">
-                        <a href="#"><img src="img/vk.svg"></a>
-                        <a href="#"><img src="img/inst.svg"></a>
-                        <a href="#"><img src="img/face.svg"></a>
-                        <a href="#"><img src="img/tw.svg"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
