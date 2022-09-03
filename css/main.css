@@ -1053,10 +1053,17 @@ header .main-nav .hover-item:hover > .show-menu {
 	text-align: center;
 	font-size: 14px;
 	color: #fff;
+	border: 1px solid transparent;
 	padding: 8px 15px;
 	background: var(--red);
 	border-radius: 24px;
 	z-index: 2;
+}
+
+.card-product_button:not(.--gray):hover {
+	border-color: var(--red);
+	background: #fff;
+	color: var(--red);
 }
 
 .card-product_button.--gray {
@@ -1182,11 +1189,17 @@ header .main-nav .hover-item:hover > .show-menu {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 14px;
+	border: 1px solid transparent;
 	color: #fff;
 	padding: 8px 15px;
 	background: var(--red);
 	border-radius: 24px;
 	z-index: 2;
+}
+.card-service_button:hover {
+	border-color: var(--red);
+	background: #fff;
+	color: var(--red);
 }
 
 /**/
