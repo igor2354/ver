@@ -1,20 +1,35 @@
     <footer>
         <div class="container">
             <div class="wrapper">
-                <div class="logo"><img src="img/logo.svg"><div class="copyright">Copyright 2022. Buy-asic</div></div>
+
+
+                <div class="logo_group">
+                    <div class="logo">
+                        <img src="img/logo.svg">
+                    </div>
+
+                    <ul class="footer-contact">
+                        <li class="--email"><a href="#">mail@example.com</a></li>
+                        <li class="--phone"><a href="#">+7 (800) 800-80-80</a></li>
+                        <li class="--addres"><a href="#">г. Город, ул. Улица, д. 454</a></li>
+                        <li class="mobile"><button id="sub_btn">Подпишитесь на новости и акции</button></li>
+                    </ul>
+                </div>
+
+
                 <div class="menus">
                     <div class="col js-toggle">
                         <div class="head"><span>Услуги</span> </div>
                         <ul>
-                            <li><a href="#">Услуга 1</a></li>
-                            <li><a href="#">Услуга 2</a></li>
-                            <li><a href="#">Услуга 3</a></li>
-                            <li><a href="#">Услуга 4</a></li>
-                            <li><a href="#">Сервисный центр</a></li>
+                            <li><a href="#">Ремонт оборудования</a></li>
+                            <li><a href="#">Сопровождение майнинга</a></li>
+                            <li><a href="#">Сборка и настройка</a></li>
+                            <li><a href="#">майнинг ферм</a></li>
                         </ul>
                     </div>
+
                     <div class="col js-toggle">
-                        <div class="head"><span>Навигация</span></div>
+                        <div class="head"><span>Компания</span></div>
                         <ul>
                             <li><a href="#">Каталог</a></li>
                             <li><a href="#">Доставка</a></li>
@@ -24,19 +39,14 @@
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </div>
+
                     <div class="col">
-                        <div class="head"><span>Контакты</span></div>
+                        <div class="head"><span>Каталог</span></div>
                         <ul>
-                            <li><a href="#">mail@example.com</a></li>
-                            <li><a href="#">+7 (800) 800-80-80</a></li>
-                            <li><a href="#">г. Город, ул. Улица, д. 454</a></li>
-                            <li class="social">
-                                <a href="#"><img src="img/vk.svg"></a>
-                                <a href="#"><img src="img/inst.svg"></a>
-                                <a href="#"><img src="img/face.svg"></a>
-                                <a href="#"><img src="img/tw.svg"></a>
-                            </li>
-                            <li class="mobile"><button id="sub_btn">Подпишитесь на новости и акции</button></li>
+                            <li><a href="#">Бренды</a></li>
+                            <li><a href="#">ASIC Майнеры</a></li>
+                            <li><a href="#">Комплектующие</a></li>
+                            <li><a href="#">Акции</a></li>
                         </ul>
                     </div>
                 </div>

@@ -31,6 +31,8 @@
     <div class="content-wrap">
     <nav id="menu" class="mm-menu_offcanvas">
         <ul>
+            <li class="mm-menu-icon"></li>
+
             <li class="--red">
                 <a href="tel:+7 (800) 800 - 80 - 80">
                     <img src="./img/phone.svg" alt="">
@@ -122,14 +124,12 @@
 
             <li>
                 <a href="#">
-                    <img src="./img/stocks.svg" alt="">
                     Акции
                 </a>
             </li>
 
             <li>
                 <a href="#">
-                    <img src="./img/calculate.svg" alt="">
                     Майнинг калькулятор
                 </a>
             </li>
@@ -305,7 +305,6 @@
                     </div>
 
                     <div class="search">
-                        <button id="search_btn"><img src="img/search.svg"></button>
                         <div id="search_wrapper" class="wrapper">
                             <input type="search" id="search" placeholder="Поиск" name="q">
                             <button>Найти</button>
@@ -313,6 +312,8 @@
                     </div>
 
                     <div class="main_menu">
+                        <div id="search_btn"><img src="img/search.svg"></div>
+
                         <div class="main_menu-icon auth">
                             <a href="#">
                                 <div class="auth_image">
@@ -340,7 +341,7 @@
                         </div>
 
                         <div class="main_menu-icon cart">
-                            <a href="#">
+                            <a href="/cart">
                                 <div class="cart_image">
                                     <img src="img/cart.svg">
                                     <span class="cart_value">3</span>

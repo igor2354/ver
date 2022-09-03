@@ -1,6 +1,39 @@
 /* Выпадающее меню Каталог в шапке */
 
 document.addEventListener("DOMContentLoaded", function () {
+	let sliderMainScreen = new Swiper(".main-screen_slider", {
+		slidesPerView: 1,
+		watchOverflow: true,
+		spaceBetween: 32,
+		pagination: {
+			el: ".main-screen_slider .swiper-pagination",
+			type: "bullets",
+		},
+	});
+
+	let sliderBrand = new Swiper(".brand_slider", {
+		slidesPerView: 2,
+		watchOverflow: true,
+		spaceBetween: 20,
+		navigation: {
+			nextEl: ".brand_slider-wrap .swiper-button-next",
+			prevEl: ".brand_slider-wrap .swiper-button-prev",
+		},
+		breakpoints: {
+			1300: {
+				slidesPerView: 5,
+			},
+
+			1170: {
+				slidesPerView: 4,
+			},
+
+			768: {
+				slidesPerView: 3,
+			},
+		},
+	});
+
 	let arrSimilarProductSliders = document.querySelectorAll(".similar-product");
 
 	if (arrSimilarProductSliders.length > 0) {
@@ -53,15 +86,15 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 	});
 
-	let sliderNews = new Swiper(".news_slider", {
+	let sliderNews = new Swiper(".sect-news_slider", {
 		slidesPerView: 1,
 		watchOverflow: true,
 		watchSlidesVisibility: true,
 		watchSlidesProgress: true,
-		spaceBetween: 32,
-		navigation: {
-			nextEl: ".news_wrap .swiper-button-next ",
-			prevEl: ".news_wrap .swiper-button-prev",
+		spaceBetween: 30,
+		pagination: {
+			el: ".sect-news_slider .swiper-pagination",
+			type: "bullets",
 		},
 		breakpoints: {
 			1200: {
@@ -240,6 +273,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 $(document).ready(function () {
 	// Активация мобильного меню
+	$(".mm-menu-icon").append($(".main_menu-icon.compare a, .main_menu-icon.fav a, .main_menu-icon.cart a").clone(true));
 
 	$("#menu").mmenu({
 		extensions: ["pagedim-black", "position-left"],
@@ -329,7 +363,7 @@ $(document).ready(function () {
 
 	// Поиск
 	function toogleSearch() {
-		$("#search_wrapper").toggleClass("down");
+		$(".search").toggleClass("down");
 	}
 
 	function actvieToogleSearch() {
