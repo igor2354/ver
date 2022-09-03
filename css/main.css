@@ -64,6 +64,7 @@ header .middle .search {
 	flex-grow: 1;
 	max-width: 700px;
 	margin: 0 45px;
+	z-index: 5;
 }
 
 header .middle .search .wrapper {
